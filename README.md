@@ -121,6 +121,7 @@ selenium-ai-chatbot-testing/
 ├── drivers/
 │   └── chromedriver.exe
 └── README.md
+```
 
 ## 📄 LICENCIA
 
