@@ -110,6 +110,7 @@ Verás el formulario de chat donde el bot responde con “Echo bot: «<tu mensaj
 
 ## 📁 ESTRUCTURA DEL PROYECTO
 
+```plaintext
 selenium-ai-chatbot-testing/
 ├── stub_chatbot_flask/
 │   ├── app.py
