@@ -108,6 +108,19 @@ Verás el formulario de chat donde el bot responde con “Echo bot: «<tu mensaj
 - ```failures.csv``` para un listado tabular de fallos.
 - ```failures.json``` para detalles en JSON.
 
+## 📁 ESTRUCTURA DEL PROYECTO
+
+selenium-ai-chatbot-testing/
+├── stub_chatbot_flask/
+│   ├── app.py
+│   └── templates/
+│       └── index.html
+├── tests/
+│   └── test_chatbot_selenium.py
+├── drivers/
+│   └── chromedriver.exe
+└── README.md
+
 ## 📄 LICENCIA
 
 MIT © Víctor Cardoso Fernández
