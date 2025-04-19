@@ -66,7 +66,48 @@ Este proyecto demuestra un flujo completo de QA para un chatbot stub:
   ./drivers/chromedriver.exe
   ```
 
-Ajusta la ruta en tests/test_chatbot_selenium.py si es necesario.
+Ajusta la ruta en ```tests/test_chatbot_selenium.py``` si es necesario.
 
-5. 
-6. 
+## 🛠️ CÓMO EJECUTAR EL STUB
+
+1. Navegar a la carpeta del stub Flask:
+
+  ```bash
+  cd stub_chatbot_flask
+  ```
+   
+2. Lanzar el servidor:
+
+ ```bash
+ python app.py
+ ```
+3. Abrir el navegador en:
+
+ ```bash
+ http://127.0.0.1:5000/
+ ```
+
+Verás el formulario de chat donde el bot responde con “Echo bot: «<tu mensaje>»”.
+
+## 🧪 CASOS DE PRUEBA AUTOMATIZADOS
+
+1. En una segunda terminal, vuelve a la raíz del proyecto:
+
+ ```bash
+ cd selenium-ai-chatbot-testing
+ ```
+
+2. Ejecuta los tests con pytest:
+
+```bash
+ pytest tests/test_chatbot_selenium.py
+ ```
+
+3. Al terminar, revisa:
+
+- ```failures.csv``` para un listado tabular de fallos.
+- ```failures.json``` para detalles en JSON.
+
+## 📄 LICENCIA
+
+MIT © Víctor Cardoso Fernández
